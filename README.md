@@ -21,3 +21,6 @@
 * openssl x509 -req -in zahorec.fit.csr -CA ../CA-self/ca.crt -CAkey ../CA-self/ca.key -CAcreateserial -copy_extensions copyall -out zahorec.fit.cr # if you trust and want to copy extensions
 * openssl x509 -in zahorec.fit.crt -noout -text # examine signed ceritificate
 * cat zahorec.fit.crt ca.crt > zahorec.fit.bundle.crt # Create bundle
+## Mail
+### Way to secure for my use
+* https://std.rocks/linux-mail-server-postfix-dovecot.html
